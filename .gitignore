@@ -1,0 +1,85 @@
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+
+# Logs:
+*.log
+
+# Eclipse
+.project
+.pydevproject
+.settings
+
+# Linux Editors
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.idea
+
+# Symlinked or secret files
+private_keys.yml
+
+# Collected static files
+smilecheck/static
+
+# nginx in development
+*.pid
+
+# coverage.py
+.coverage
+htmlcov
+smilecheck/celerybeat-schedule
+
+# Silverpop FTP archives
+smilecheck/workflow/silverpop-uploads/*.csv
+smilecheck/workflow/silverpop-uploads/*.xml
+
+# possibly cached db restore
+smilecheck/develop_scrubbed
+smilecheck/develop_real
+smilecheck/develop_real_decrypted
+
+# node / javascript
+node_modules/
+.sass-cache/
+.tmp/
+
+# local processing locations
+temp_files
+
+# jupyter notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Redis dump
+dump.rdb
+
+.vscode
+.python-version
+
+secrets.json
